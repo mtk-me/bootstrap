@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <!-- Step 1: link bootstrap file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-3">
+        <h2>Forms</h2>
+        <!-- Step 2: form-control class -->
+        <form>
+            <div class="mb-3">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="address">Address</label>
+                <textarea id="address" class="form-control"></textarea>
+                <div class="form-text">Enter your full address</div>
+            </div>
+            <div class="mb-3">
+                <label for="gender">Gender</label>
+                <select id="gender" class="form-select">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </div>
+            <button class="btn btn-primary">Submit Form</button>
+        </form>
+
+        <br><br>
+
+        <h2>Form Input Group</h2>
+        <form>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control">
+                <button class="btn btn-secondary">Search</button>
+            </div>
+            <label for="email">Enter Your Gmail Address</label>
+            <div class="input-group mb-3">
+                <input type="text" id="email" class="form-control">
+                <span class="input-group-text">@gmail.com</span>
+            </div>
+        </form>
+
+        <br><br>
+
+        <h2>Form Floating</h2>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+            <label for="name">Your Name</label>
+        </div>
+        <div class="form-floating">
+            <input type="text" class="form-control" id="email" placeholder="Email Address">
+            <label for="email">Email Address</label>
+        </div>
+    </div>
+</body>
+
+</html>
