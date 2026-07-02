@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modals</title>
+    <!-- Step 1: link bootstrap css file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Step 2: link bootstrap js file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <h2>Modals</h2>
+        <!-- Step 3: modal class -->
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#feedback">Show Modal</button>
+        <div class="modal" id="feedback">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Feedback</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <textarea class="form-control"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary">
+                            Send Feedback</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <h2>Fade Effect</h2>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fade">Show Faded Modal</button>
+        <div class="modal fade" id="fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Fade From Top</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quia porro necessitatibus
+                        quibusdam eligendi reprehenderit dicta ea officiis! Earum, a?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

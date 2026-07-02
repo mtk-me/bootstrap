@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdowns</title>
+    <!-- Step 1: link bootstrap css file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Step 2: link bootstrap js file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <h2>Dropdowns</h2>
+        <!-- Step 3: dropdown class -->
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Send Now</button>
+            <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">Send Now</a></li>
+                <li><a href="#" class="dropdown-item">Save Draft</a></li>
+                <li><a href="#" class="dropdown-item">Preview</a></li>
+            </ul>
+        </div>
+
+        <br><br>
+
+        <h2>Dropdown Divider</h2>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Send Now</button>
+            <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">Send Now</a></li>
+                <li><a href="#" class="dropdown-item">Save Draft</a></li>
+                <li class="dropdown-divider"></li>
+                <li><a href="#" class="dropdown-item">Preview</a></li>
+            </ul>
+        </div>
+
+        <br><br>
+
+        <h2>Dropdown Dark Menu</h2>
+        <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">Send Now</button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a href="#" class="dropdown-item">Send Now</a></li>
+                <li><a href="#" class="dropdown-item">Save Draft</a></li>
+                <li class="dropdown-divider"></li>
+                <li><a href="#" class="dropdown-item">Preview</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
